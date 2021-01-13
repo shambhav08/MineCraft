@@ -130,6 +130,16 @@ if(e.shiftKey && keyPressed == '77')
         new_image('cloud.jpg'); 
         console.log("c");
     }
+    if(keyPressed == '83')
+    {
+        new_image('morning_sky.jfif');
+        console.log("m");
+    }
+    if(keyPressed == '78')
+    {
+        new_image('night_sky.jfif');
+        console.log("n");
+    }
     
 }
 function up()
