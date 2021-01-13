@@ -140,6 +140,11 @@ if(e.shiftKey && keyPressed == '77')
         new_image('night_sky.jfif');
         console.log("n");
     }
+    if(keyPressed == '90')
+    {
+        new_image('yellow.png');
+        console.log("z");
+    }
     
 }
 function up()
